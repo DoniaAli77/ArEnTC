@@ -8,6 +8,22 @@ Each sentence is labeled with one of nine topic categories: **Business, Educatio
 
 A full corpus-level analysis is provided in `corpus_analysis_rich.xlsx`, covering token distribution, switch point frequency, code-mixing index, run length analysis, vocabulary statistics, and per-topic breakdowns.
 
+## Generation Protocol
+
+Sentences were generated using the **GPT-4o mini** model via the OpenAI API 
+in batches of 10 sentences per call, with temperature set to 0.7 for diversity. 
+Each prompt specified the target topic, sentence length (15–20 words), 
+Arabic–English ratio (~70% Arabic / 30% English), and encouraged phrase-level 
+intra-sentential switching across varied sentence structures (statements, 
+questions, conditionals, imperatives, cause-effect).
+
+Generation was oversampled — targeting 12,000 sentences per topic to yield 
+~10,000 unique ones after deduplication. Topic-specific keywords and complexity 
+templates (simple, moderate, complex) were randomly sampled per batch to 
+maximise lexical and structural diversity.
+
+The full generation script is provided in `generation_script.py` for reproducibility.
+
 ## Our Paper
 
 > *Prompting vs Ensemble Architectures for Arabic–English Code-Switched Classification*
