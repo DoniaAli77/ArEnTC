@@ -1,5 +1,5 @@
 """
-AR-EN-Synth-Topic Dataset Generation Script
+ArEnTC Dataset Generation Script
 =========================================
 Generates Arabic-English code-switched sentences for 9 topic categories
 using the GPT-4o mini model via the OpenAI API.
