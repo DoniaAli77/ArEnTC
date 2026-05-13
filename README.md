@@ -1,4 +1,4 @@
-# AR-EN-Synth-Topic
+# ArEnTC
 
 This repository contains the ArabicCS-Topic dataset, a large-scale Arabic–English code-switched corpus for topic classification. The dataset consists of 105,652 synthetic sentences spanning nine domains, generated under controlled prompting conditions to reflect realistic intra-sentential code-switching behavior between Arabic and English.
 
@@ -39,7 +39,8 @@ Citation will be added upon publication.
 
 | File | Description |
 |---|---|
-| `AR-EN-CodeSwitch-Topic.xlsx` | Full cleaned dataset (105,652 sentences) |
+| `ArEnTC.xlsx` | Full cleaned dataset (105,652 sentences) |
 | `corpus_analysis.xlsx` | Detailed corpus-level analysis (13 sheets) |
 | `corpus_analysis_report.md` | Human-readable analysis report |
+| `generation_script.py` | DataSet generation code |
 | `README.md` | This file |
