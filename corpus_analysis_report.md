@@ -1,5 +1,5 @@
 # Corpus-Level Analysis Report
-## Arabic–English Code-Switched Dataset
+## ArEnTC Dataset
 
 **Dataset:** `ArEnTC.xlsx`  
 **Total Sentences:** 105,652  
@@ -127,4 +127,3 @@ Topic distributions are balanced across all nine domains, with each class contai
 - CMI formula: `(total_language_tokens − dominant_language_tokens) / total_language_tokens`
 - Script classification is token-level based on Unicode character ranges (Arabic: U+0600–U+06FF and extended blocks; Latin: A–Z, a–z).
 - Switch point defined as an adjacent token-pair boundary where script changes between Arabic and Latin.
-

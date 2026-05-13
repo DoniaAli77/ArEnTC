@@ -1,6 +1,6 @@
 # ArEnTC
 
-This repository contains the ArabicCS-Topic dataset, a large-scale Arabic–English code-switched corpus for topic classification. The dataset consists of 105,652 synthetic sentences spanning nine domains, generated under controlled prompting conditions to reflect realistic intra-sentential code-switching behavior between Arabic and English.
+This repository contains the ArEnTC dataset, a large-scale Arabic–English code-switched corpus for topic classification. The dataset consists of 105,652 synthetic sentences spanning nine domains, generated under controlled prompting conditions to reflect realistic intra-sentential code-switching behavior between Arabic and English.
 
 ## Dataset Description
 
